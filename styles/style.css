@@ -1,3 +1,49 @@
 h1{
     color: brown;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url(../images/cow1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+.hero h1{
+    color: aquamarine;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 60px;
+    padding-top: 60px;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.article{
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin: 60px auto;
+    
+    padding: 60px;
+    background-color: aqua;
+    border-color: brown;
+
+    border-width: 15px;
+    borger-style: solid;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px;
+    padding-bottom: 30px;
+
+}
+.article p{
+    font-size: 28px;
+}
